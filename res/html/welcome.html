@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>title?!</title>
+    <style>
+      .container {  display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 0.5fr min-content min-content 0.5fr;
+        gap: 10px 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "mimm-logo mac-logo"
+          "lab-logo lab-logo"
+          "content content"
+          "click click";
+        width: 600px;
+      }
+      .mimm-logo { grid-area: mimm-logo; }
+      .mac-logo { grid-area: mac-logo; }
+      .lab-logo { grid-area: lab-logo; }
+      .content { grid-area: content; }
+      .click { grid-area: click; }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="mimm-logo">
+        <img src="res/img/mimm-logo.svg" 
+        alt="McMaster Institute for Music and the Mind">
+      </div>
+      <div class="mac-logo">
+        <img src="res/img/mac-logo.svg" 
+        alt="McMaster University" style="float: right">
+      </div>
+      <div class="lab-logo">
+        <img src="res/img/beat-lab-logo.svg" 
+        alt="Brain/Body Entrainment Attention and Timing Lab at McMaster University">
+      </div>
+      <div class="content">
+        <hr>
+        <h2> Welcome to our music listening experiment.</h2>
+        <p style="text-align: justify;">
+          Before you begin, please read the following consent form. 
+          If you have any questions or concerns, you can contact us 
+          by email at <a href="mailto: flannerm@mcmaster.ca">flannerm@mcmaster.ca</a>. 
+          Otherwise, if you agree to participate in the study, 
+          please check the appropriate button on the consent form 
+          and the experiment will continue.</p>
+      </div>
+      <div class="click">
+        <button type="button" id="start" style="font-size: large">
+          Click here to view/sign the consent form
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

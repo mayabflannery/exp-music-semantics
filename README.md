@@ -10,6 +10,10 @@ Note - To test the experiment on your computer:
 - type `python -m http.server`
 - Navigate to `localhost:8000/test.html` in web browser
 
+When finished testing:
+
+- type `Ctrl-c` to quit the python server.
+
 ## Contributors
 
 
