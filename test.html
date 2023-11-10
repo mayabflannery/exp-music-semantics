@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Beat Lab Experiment: Music Semantics!</title>
+    <script src="https://unpkg.com/jspsych@7.3.3"></script>
+    <link href="https://unpkg.com/jspsych@7.3.3/css/jspsych.css" rel="stylesheet" type="text/css" />
+    <link href="https://unpkg.com/@jspsych/plugin-survey@0.2.0/css/survey.css" rel="stylesheet">
+    <!--- List of plugins  --->
+    <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-instructions@1.1.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-survey@0.2.1"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-external-html@1.1.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.2"></script>
+  </head>
+  <body>
+    <!--- wd: python3 -m http.server [localhost:8000] --->
+    <script type="text/javascript" src="src/init-base.js"></script>
+    <script type="text/javascript" src="src/init-local-test.js"></script>
+    <script type="text/javascript" src="src/page-welcome.js"></script>
+    <script type="text/javascript" src="src/page-consent.js"></script>
+    <script type="text/javascript" src="src/page-debrief.js"></script>
+    <script type="text/javascript" src="src/instruct-demographic.js"></script>
+    <script type="text/javascript" src="src/instruct-listening-task.js"></script>
+    <script type="text/javascript" src="src/instruct-personality.js"></script>
+    <script type="text/javascript" src="src/instruct-post.js"></script>
+    <script type="text/javascript" src="src/trial-demographic.js"></script>
+    <script type="text/javascript" src="src/trial-listening-task.js"></script>
+    <script type="text/javascript" src="src/trial-personality.js"></script>
+    <script type="text/javascript" src="src/trial-post.js"></script>
+    
+    <script type='text/javascript'>
+      /* ================ Overall experiment structure =============== */
+      timeline.push(page_welcome);
+      timeline.push(page_consent);
+      timeline.push(trial_listening_task)
+      timeline.push(page_debrief);
+      
+      /* Run the experiment (everything in timeline) */
+      jsPsych.run(timeline);
+      
+      /* Get the total trials, plus the number of stimuli */
+      progress_total += jsPsych.getTimeline().length + audioFiles.length - 1
+    </script>
+  </body>
+</html>
