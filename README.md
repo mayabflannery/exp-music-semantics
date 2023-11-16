@@ -1,4 +1,4 @@
-## Experiment desing for investigation of music semantic groupings
+## Experiment design for investigation of music semantic groupings
 
 Experiment design for analysis of music descriptions
 
@@ -16,5 +16,5 @@ When finished testing:
 
 ## Contributors
 
-
+Catherine Deng, Maya Flannery
 
