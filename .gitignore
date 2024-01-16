@@ -1,5 +1,6 @@
 .DS_Store
 **/data-FMA/*
+!**/data-FMA/genres.csv
 **/README.html
 
 example_files/*
