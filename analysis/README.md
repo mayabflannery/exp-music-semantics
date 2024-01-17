@@ -13,11 +13,11 @@ TODO
 
 ## Data analysis files
 
-### [demoAnalysis.qmd](https://github.com/mayabflannery/exp-music-semantics/blob/d9348f33798f4cd198f8991bb273bc1a55fefb17/analysis/demoAnalysis.qmd)
+### [demoAnalysis.qmd](https://github.com/mayabflannery/exp-music-semantics/blob/ffe45f733bdbe043fb625c279b27107e465b7138/analysis/demoAnalysis.qmd)
 
 Incomplete: Simulation and example plots.
 
-### [makeFMASubset.ipynb](https://github.com/mayabflannery/exp-music-semantics/blob/d9348f33798f4cd198f8991bb273bc1a55fefb17/analysis/makeFMASubset.ipynb)
+### [makeFMASubset.ipynb](https://github.com/mayabflannery/exp-music-semantics/blob/ffe45f733bdbe043fb625c279b27107e465b7138/analysis/makeFMASubset.ipynb)
 
 Process FMA data. Filter `tracks.csv` from the raw FMA dataset:
 
@@ -25,6 +25,6 @@ Process FMA data. Filter `tracks.csv` from the raw FMA dataset:
 - Keep columns with album, artist, title, and tags
 - Writes to [`data-processed/tracks-tags.csv`](https://github.com/mayabflannery/exp-music-semantics/blob/d9348f33798f4cd198f8991bb273bc1a55fefb17/analysis/data-processed/tracks-tags.csv)
 
-### [analyseFMASubset.ipynb]()
+### [analyseFMASubset.ipynb](https://github.com/mayabflannery/exp-music-semantics/blob/ffe45f733bdbe043fb625c279b27107e465b7138/analysis/analyseFMASubset.ipynb)
 
 TODO: Analysis.
