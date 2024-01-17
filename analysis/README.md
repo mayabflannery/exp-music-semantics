@@ -28,3 +28,9 @@ Process FMA data. Filter `tracks.csv` from the raw FMA dataset:
 ### [analyseFMASubset.ipynb](https://github.com/mayabflannery/exp-music-semantics/blob/ffe45f733bdbe043fb625c279b27107e465b7138/analysis/analyseFMASubset.ipynb)
 
 TODO: Analysis.
+
+## References
+
+### MultiIndexing
+
+[pandas](https://pandas.pydata.org/pandas-docs/version/1.2.1/user_guide/advanced.html#advanced-xs)
