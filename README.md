@@ -28,3 +28,5 @@ H_1: When a participant hears a stimulus, they select few related words from eac
 
 We can hypothesize the number of genres selected (1 is most likely, 2, 3+ less common)
 - use proportion? 10% of available words?
+
+## Example
