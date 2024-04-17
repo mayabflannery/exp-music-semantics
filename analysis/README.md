@@ -1,8 +1,7 @@
 ## Music description and categorization: A semantic analysis of user generated tags
 
 Abstract: 
-
-Music is a powerful tool in its ability to evoke intense emotions and vivid mental imagery. It is pervasive throughout everyday life, and we may spend more time listening to music than any other daily activity. There are many ways to think about music, but there is a lack of literature investigating how we communicate about music. How do we describe the music that we listen to? To investigate that question and examine the relationships between musical tags, higher levels of categorization, and genre is the aim of this study. In this study, we seek to explore the ways that listeners describe music and examine whether there are possible relationships between musical tag words and higher levels of meaning. Our usage of a large music database will help address the sample size limitations of previous studies, and we hope to contribute to the emerging body of literature on music description and categorization.
+Music is a powerful tool in its ability to evoke intense emotions and vivid mental imagery. It is pervasive throughout everyday life, and we may spend more time listening to music than any other daily activity. There are many ways to think about music, but there is a lack of literature investigating how we communicate about music. How do we describe the music that we listen to? To investigate that question and examine the relationships between musical tags, higher levels of categorization, and genre is the aim of this study. Our usage of the FMA database will help address the sample size limitations of previous studies, and we hope to contribute to the emerging body of literature on music description and categorization.
 
 ## Data
 
@@ -25,7 +24,7 @@ Process FMA data. Filter `tracks.csv` from the raw FMA dataset:
 - Keep columns with album, artist, title, and tags
 - Writes to [`data-processed/tracks-tags.csv`](https://github.com/mayabflannery/exp-music-semantics/blob/d9348f33798f4cd198f8991bb273bc1a55fefb17/analysis/data-processed/tracks-tags.csv)
 
-### [analyseFMASubset.ipynb](https://github.com/mayabflannery/exp-music-semantics/blob/ffe45f733bdbe043fb625c279b27107e465b7138/analysis/analyseFMASubset.ipynb)
+### [FMA_plots_catherine.ipynb](https://github.com/mayabflannery/exp-music-semantics/blob/main/analysis/FMA_plots_catherine.ipynb)
 
 
 ## References 
